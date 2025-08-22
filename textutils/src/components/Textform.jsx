@@ -60,25 +60,35 @@ export default function Textform(props) {
       </div>
 
       <div className="container p-3">
-        <button className="btn btn-primary mx-1 p-2" onClick={handleUpClick}>
-          Convert To UpperCase
-        </button>
-        <button className="btn btn-primary mx-1 p-2" onClick={handleLoClick}>
-          Convert To LowerCase
-        </button>
-        <button className="btn btn-primary mx-1 p-2" onClick={handleToClear}>
-          Clear
-        </button>
-        <button className="btn btn-primary mx-1 p-2" onClick={handleCopy}>
-          Copy
-        </button>
-        <button
-          className="btn btn-primary mx-1 p-2"
-          onClick={handleExtraSpaces}
-        >
-          Remove Extra Spaces
-        </button>
-      </div>
+  <div className="row g-2"> 
+    <div className="col-12 col-sm-6 col-md-4">
+      <button className="btn btn-primary w-100" onClick={handleUpClick}>
+        Convert To UpperCase
+      </button>
+    </div>
+    <div className="col-12 col-sm-6 col-md-4">
+      <button className="btn btn-primary w-100" onClick={handleLoClick}>
+        Convert To LowerCase
+      </button>
+    </div>
+    <div className="col-12 col-sm-6 col-md-4">
+      <button className="btn btn-primary w-100" onClick={handleToClear}>
+        Clear
+      </button>
+    </div>
+    <div className="col-12 col-sm-6 col-md-4">
+      <button className="btn btn-primary w-100" onClick={handleCopy}>
+        Copy
+      </button>
+    </div>
+    <div className="col-12 col-sm-6 col-md-4">
+      <button className="btn btn-primary w-100" onClick={handleExtraSpaces}>
+        Remove Extra Spaces
+      </button>
+    </div>
+  </div>
+</div>
+
 
       <div
         className="container my-3"
