@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Routes, Route } from "react-router-dom";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import About from "./components/About";
 import Navbar from "./components/Navbar";
 import Textform from "./components/Textform";
